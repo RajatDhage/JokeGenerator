@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(198, 242, 228);
+}
+ 
+.joke {
+    width: auto;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: beige;
+}
+ 
+h1 {
+    text-align: center;
+    color: beige;
+}
+
+.jokePara{
+    /* color: red;
+    font-size: 1.3rem;
+    margin: 20px 150px 0 150px;
+    border: 1px solid;
+    background-color: black; */
+
+    color: beige;
+    font-size: 1.3rem;
+    margin: 20px auto;
+    padding: 15px 20px;
+    border: 1px solid beige;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 600px;
+    line-height: 1.5;
+}
